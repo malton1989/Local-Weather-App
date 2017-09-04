@@ -1,0 +1,40 @@
+<head>
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
+</head>
+
+<body>
+
+
+
+  <div id="weather-widget" class="container fluid text-center">
+    <h1> Show Local Weather</h1>
+    <h2 id="city"></h2>
+    <p id="test">
+      <ul class="white-text" style="list-style:none;" id="info">
+        <li id="info1"></li>
+        <li id="info2"></li>
+      </ul>
+    </p>
+    <!--1: SEE WEATHER BY CURRENT LOCATION-->
+  <a class="btn btn-warning" id="seek"><i class="fa fa-map-marker"> Start</i></a>
+    <!--2: ICONS THAT VARY-->
+    <img id="mostlyCloudy" class="centered" src="http://i1098.photobucket.com/albums/g380/aly55a/Web%20Development/Cloud-Sun_zpsa3fbg6ch.png" border="0" alt="Mostly Cloudy icon" style="display: none;">
+    <img id="nice" class="centered" src="http://i1098.photobucket.com/albums/g380/aly55a/Sun_zpsxmeulbno.png" alt="Clear icon" style="display: none;">
+    <img id="frozen" class="centered" src="http://i1098.photobucket.com/albums/g380/aly55a/Web%20Development/Cloud-Snow_zpsgsakybhc.png" style="display: none;">
+    <img id="cloudy" class="centered" src="http://i1098.photobucket.com/albums/g380/aly55a/Web%20Development/Cloud-Snow_zpsgsakybhc.png" style="display: none;">
+    <img id="storm" class="centered" src="http://i1098.photobucket.com/albums/g380/aly55a/Web%20Development/Cloud-Lightning_zpsa7hecmdi.png" style="display: none;">
+    <img id="rain" class="centered" src="http://i1098.photobucket.com/albums/g380/aly55a/Web%20Development/Cloud-Rain_zpsdhjh4rpc.png" style="display: none;">
+  <!--Celsius button -->
+    <div class="navbar navbar-fixed-top">
+      <div class="container">
+        <p class="navbar-text navbar-right" style="text-align:right;" ><a class="navbar-link btn btn-default navbar-right" id="convert">&deg;C</a></p>
+      </div>
+    </div>
+    <!-- Footer -->
+    <div class="navbar navbar-inverse navbar-fixed-bottom">
+      <div class="container">
+        <p class="navbar-text text-center">Malton 2017</p>
+      </div>
+    </div>
+  </div>
+</body>
